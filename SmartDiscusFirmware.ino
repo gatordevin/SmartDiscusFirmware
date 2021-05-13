@@ -193,7 +193,6 @@ void setup() {
 long startTime = 0;
 void loop() {
   if (recording) {
-  
     updateIMUValues();
     updateGPSValues();
     if (startTime == 0) {
